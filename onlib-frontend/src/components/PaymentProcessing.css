@@ -1,0 +1,40 @@
+.payment-container {
+    background-color: #797777;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.payment-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.payment-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.payment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.payment-message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(235, 10, 10);
+}

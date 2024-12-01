@@ -1,0 +1,70 @@
+.catalog-container {
+  background: rgba(0, 0, 0, 0.7); /* Fundo mais escuro e translúcido */
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 90%; /* Aumentar a largura para ocupar mais espaço horizontal */
+  margin: 2px auto; /* Centralizar no ecrã */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra mais definida */
+  color: white; /* Texto branco para contraste */
+}
+
+.catalog-container h2 {
+  text-align: center;
+  color: #ffcc33; /* Título em amarelo para destaque */
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra no texto */
+}
+
+.catalog-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ffcc33; /* Borda amarela para contraste */
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo mais claro */
+  color: #333; /* Texto em cinzento escuro */
+}
+
+.catalog-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc33; /* Botão amarelo */
+  color: #333; /* Texto escuro para contraste */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.catalog-container button:hover {
+  background-color: #e6b800; /* Botão amarelo mais escuro no hover */
+  transform: scale(1.05); /* Efeito de escala no hover */
+}
+
+.catalog-container ul {
+  display: flex; /* Usar flexbox para organizar itens lado a lado */
+  flex-wrap: wrap; /* Permitir quebra para a próxima linha */
+  gap: 20px; /* Espaçamento entre itens */
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  justify-content: center; /* Centralizar itens no container */
+}
+
+.catalog-container li {
+  background: rgba(255, 255, 255, 0.1); /* Fundo mais sutil */
+  padding: 15px;
+  border-radius: 8px;
+  color: white; /* Texto branco para contraste */
+  text-align: center;
+  width: 200px; /* Largura fixa para manter o alinhamento */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.catalog-container li:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Destaque no hover */
+  transform: scale(1.05); /* Efeito de escala */
+}

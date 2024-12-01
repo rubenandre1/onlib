@@ -1,0 +1,86 @@
+/* Estilo geral da aplicação */
+.app {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), 
+    url('/public/onlib_img.jpg'); /* Gradiente escuro sobre a imagem */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Texto de boas-vindas */
+.welcome-message {
+  text-align: center;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.6); /* Fundo translúcido escuro */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  width: fit-content;
+}
+
+.welcome-message h1 {
+  color: #fff; /* Texto branco */
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra no texto */
+}
+
+.logout-button {
+  position: absolute; /* Posicionamento no topo direito */
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Botão discreto */
+  border: 1px solid #ddd;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+  background: rgba(255, 255, 255, 0.3); /* Destaque no hover */
+  color: #000;
+}
+
+/* Botões de ação */
+.action-buttons {
+  display: grid; /* Alterar para grelha */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Distribuição uniforme */
+  gap: 20px; /* Espaço entre botões */
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.action-button {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+  border: 3px solid #ca9709;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  text-align: center; /* Garantir centralização do texto */
+}
+
+.action-button:hover {
+  background: rgba(0, 0, 0, 0.9); /* Fundo mais escuro no hover */
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8); /* Efeito de sombra no hover */
+}
+
+/* Adicionar uma leve animação ao hover */
+.action-button:active {
+  transform: scale(0.98); /* Efeito de clique */
+}

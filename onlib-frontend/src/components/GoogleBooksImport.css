@@ -1,0 +1,76 @@
+.google-books-import-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semitransparente para contraste */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .google-books-import-container h2 {
+    color: #333; /* Cor do texto para contraste */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .google-books-import-container .google-logo {
+    width: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Azul para o botão */
+    color: white; /* Contraste com o fundo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #28a745; /* Verde para mensagens de sucesso */
+  }
+  
+  .message.error {
+    color: #dc3545; /* Vermelho para mensagens de erro */
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results h3 {
+    color: #333; /* Texto escuro */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-results .no-results {
+    color: red; /* Vermelho para destacar que não há resultados */
+  }
+  
+  .result-item {
+    list-style: none;
+    margin: 5px 0;
+    color: #555; /* Cinza escuro */
+  }
+  

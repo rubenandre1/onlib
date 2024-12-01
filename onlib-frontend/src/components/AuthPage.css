@@ -1,0 +1,74 @@
+.login-container {
+    position: absolute; /* Permite posicionamento exato */
+    top: 5%; /* Move o formulário mais para o topo */
+    left: 5%; /* Mantém o formulário próximo à esquerda */
+    text-align: left; /* Alinhar o texto à esquerda */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fundo translúcido escuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    max-width: 400px; /* Limitar a largura para ficar mais compacto */
+  }
+  
+  .login-container h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center; /* Mantém o título centralizado */
+  }
+  
+  .login-container label {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .login-container input {
+    width: 100%; /* Ajusta a largura ao container */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2b2b2b; /* Fundo cinza escuro */
+    color: white; /* Texto branco */
+  }
+  
+  .login-container input:focus {
+    outline: none;
+    border-color: #ca9709; /* Destaque da borda no foco */
+    box-shadow: 0 0 5px rgba(202, 151, 9, 0.8);
+  }
+  
+  .login-container button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #4caf50; /* Verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .login-container .switch-button {
+    background-color: #008cba; /* Azul */
+  }
+  
+  .login-container .switch-button:hover {
+    background-color: #007bb5;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

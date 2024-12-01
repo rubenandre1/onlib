@@ -1,0 +1,54 @@
+.recommendations-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+  color: white;
+}
+
+.recommendations-container h2, .recommendations-container h3 {
+  text-align: center;
+  color: #ffcc33;
+}
+
+.add-recommendation {
+  margin-bottom: 30px;
+}
+
+.add-recommendation select,
+.add-recommendation input,
+.add-recommendation textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ffcc33;
+  border-radius: 5px;
+}
+
+.add-recommendation button {
+  padding: 10px 20px;
+  background: #ffcc33;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-recommendation button:hover {
+  background: #e6b800;
+}
+
+.user-recommendations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-recommendations li {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}

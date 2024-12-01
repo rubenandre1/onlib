@@ -1,0 +1,86 @@
+.payment-details-container {
+  background-color: rgba(255, 255, 255, 0.95); /* Fundo mais opaco */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px; /* Aumentar a largura */
+  margin: 20px auto; /* Centralizar no ecrã */
+  text-align: center; /* Centralizar o texto */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+  color: #333; /* Cor do texto para contraste */
+  font-family: 'Arial', sans-serif; /* Fonte legível */
+}
+
+.payment-details-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #007bff; /* Azul para destaque */
+}
+
+.payment-details-container .status {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff; /* Azul para o status */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.payment-details-container .highlight {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745; /* Verde para status positivos */
+}
+
+.payment-details-container .error {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545; /* Vermelho para status negativos */
+}
+
+.payment-details-container .details {
+  margin-top: 20px;
+  text-align: left; /* Alinhar detalhes à esquerda */
+}
+
+.payment-details-container .details p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.payment-details-container .pay-now {
+  text-align: center; /* Centralizar o botão */
+  margin-top: 20px;
+}
+
+.payment-details-container .pay-now button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.payment-details-container .pay-now button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Efeito de zoom no hover */
+}
+
+.payment-details-container .message {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.payment-details-container .message.success {
+  color: #28a745; /* Verde para mensagens de sucesso */
+}
+
+.payment-details-container .message.error {
+  color: #dc3545; /* Vermelho para mensagens de erro */
+}
